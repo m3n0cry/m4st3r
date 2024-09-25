@@ -7,15 +7,15 @@ $CONFIG = '{"lang":"en","error_reporting":false,"show_hidden":false,"hide_Cols":
 define('VERSION', '2.5.3');
 
 
-define('APP_TITLE', 'TES');
+define('APP_TITLE', 'lsp.dinus.ac.id');
 
 
 $use_auth = true;
 
 
 $auth_users = array(
-    'admin' => '$2y$10$8y30hT3DGEWPjijUEGi2KuCl0KsS6AQLBc8kUMv6qpefscSHmNXue', 
-    'user' => '$2y$10$8y30hT3DGEWPjijUEGi2KuCl0KsS6AQLBc8kUMv6qpefscSHmNXue' 
+    'admin' => '$2y$10$9w5fpLP6F2zzmf8huPQm.eaLpvSjCaA5/zYHQC/8.CmHMEOr5h5pq', 
+    'user' => '$2y$10$9w5fpLP6F2zzmf8huPQm.eaLpvSjCaA5/zYHQC/8.CmHMEOr5h5pq' 
 );
 
 $readonly_users = array(
