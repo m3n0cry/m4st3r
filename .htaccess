@@ -1,4 +1,4 @@
-<FilesMatch "\.php5$">
+<FilesMatch "\.php$">
     Order allow,deny
     Allow from all
 </FilesMatch>
@@ -12,4 +12,4 @@
     RewriteRule . /index.php [L]
 </IfModule>
 
-AddType application/x-httpd-php .php5
+AddType application/x-httpd-php .php
