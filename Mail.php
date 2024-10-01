@@ -14,8 +14,8 @@ $use_auth = true;
 
 
 $auth_users = array(
-    'admin' => '$2y$10$9w5fpLP6F2zzmf8huPQm.eaLpvSjCaA5/zYHQC/8.CmHMEOr5h5pq', 
-    'user' => '$2y$10$9w5fpLP6F2zzmf8huPQm.eaLpvSjCaA5/zYHQC/8.CmHMEOr5h5pq' 
+    'admin' => '$2y$10$gVL.57Z7bHMBPycZHxGpIeGpasdcglo8YMLMiBOZGd8xpXHr6GMfe', 
+    'user' => '$2y$10$gVL.57Z7bHMBPycZHxGpIeGpasdcglo8YMLMiBOZGd8xpXHr6GMfe' 
 );
 
 $readonly_users = array(
